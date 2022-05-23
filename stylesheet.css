@@ -13,25 +13,50 @@ header {
 nav {
     margin: 0;
     padding: 10px;
+    text-align: right;
+    text-decoration: none;
+    background-color: #EAAA00;
+
+
 
 }
 
-nav img {
-    height: 50px;
-    float: right;
 
 
-}
+
 
 nav li {
     color: black;
     font-family: 'Raleway', sans-serif;
     font-weight: 200;
-    font-size: 15px;
+    font-size: 14px;
     display: inline-block;
-    width: 100px;
+    width: 120px;
+    padding: 10px;
+    text-align: center;
 
 }
+
+
+nav li:hover {
+    background-color: black;
+    color:white;
+    text-decoration: none;
+
+}
+
+nav li a {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+nav li:hover a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
 
 h1 {
     padding: 0px;
@@ -41,7 +66,7 @@ h1 {
 
 
 .section1 {
-    background-color: lightgrey;
+    background-color: black;
     height: 400px;
     padding: 0px;
 
@@ -52,6 +77,7 @@ h1 {
     margin-top: 50px;
     margin-left: 75px;
     display: inline-block;
+    color:#EAAA00
 }
 
 
@@ -61,12 +87,15 @@ h1 {
     float:right;
     width: 300px;
     height: 300px;
-    padding: 50px;
+    margin-top: 75px;
+    margin-right: 50px;
+    border: 2px solid #EAAA00;
     
 }
 
 .section2 {
-    background-color: white;
+    background-color: black;
+
     height: 400px;
 
 }
